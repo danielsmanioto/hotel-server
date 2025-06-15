@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/reservas"
+  },
+  "response": {
+    "status": 201,
+    "jsonBody": {
+      "message": "Reserva criada com sucesso",
+      "id": 2
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/acomodacoes"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": [
+      { "id": 1, "tipo": "suite", "valor_diaria": 200, "numero_quarto": 101 }
+    ]
+  }
+}

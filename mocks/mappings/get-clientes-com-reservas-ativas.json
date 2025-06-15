@@ -1,0 +1,12 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/clientes_com_reservas-ativas"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": [
+      { "id": 1, "cpf": "12345678900", "nome": "João", "sobrenome": "Silva", "reservas_ativas": 2 }
+    ]
+  }
+}

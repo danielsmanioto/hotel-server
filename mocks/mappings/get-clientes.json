@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/clientes"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": [
+      { "id": 1, "cpf": "12345678900", "nome": "João", "sobrenome": "Silva" },
+      { "id": 2, "cpf": "98765432100", "nome": "Maria", "sobrenome": "Oliveira" }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/reservas"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": [
+      { "id": 1, "numero_quarto": 101, "data_reservada": "2024-06-10", "status": "ativa", "id_cliente": 1 }
+    ]
+  }
+}
