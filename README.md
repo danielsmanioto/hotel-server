@@ -8,7 +8,7 @@ sistema de hotel é uma aplicacao client server.
 - reservar
 - acomodacoes
 - clientes
-- clientes-com_-reservas-ativas
+- clientes_com_reservas-ativas
 
 # requisitos tecnicos
 - rotas localmente no docker via containers 
