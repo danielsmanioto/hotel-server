@@ -7,6 +7,12 @@
     "status": 200,
     "jsonBody": [
       { "id": 1, "cpf": "12345678900", "nome": "João", "sobrenome": "Silva", "reservas_ativas": 2 }
-    ]
+    ],
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type"
+    }
   }
 }
