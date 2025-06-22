@@ -39,5 +39,11 @@ wiremock/wiremock:3.3.1`
   "id_cliente": 1
   }'`
 
+# Build Java app with spring 
+
+1. `docker compose up`
+2. `./gradlew clean build` 
+3.
+
 # desenho de solucao 
 ![img.png](img.png)
