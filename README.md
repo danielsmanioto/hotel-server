@@ -41,9 +41,13 @@ wiremock/wiremock:3.3.1`
 
 # Build Java app with spring 
 
-1. `docker compose up`
+1. `cd infra && docker compose up`
 2. `./gradlew clean build` 
-3.
+3. `./gradlew bootRun --args='--server.port=8080'`
 
-# desenho de solucao 
-![img.png](img.png)
+# desenho de solucao
+
+![design.png](docs/design.drawio.png)
+
+# Overview da aplicacao 
+![overview.png](docs/overview.png)
