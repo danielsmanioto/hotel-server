@@ -42,8 +42,14 @@ wiremock/wiremock:3.3.1`
 # Build Java app with spring 
 
 1. `cd infra && docker compose up`
-2. `./gradlew clean build` 
-3. `./gradlew bootRun --args='--server.port=8080'`
+2. garantir que o banco de dados esteja ceiado com banco de dados hotel e colecoes clientes 
+3. ter alguns dados conforme docs/examples 
+4. `./gradlew clean build` 
+5. `./gradlew bootRun --args='--server.port=8080'`
+
+# Visao do banco de dados mongo db 
+
+![banco_dados.png](docs/banco_dados.png)
 
 # desenho de solucao
 
