@@ -1,0 +1,42 @@
+
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+S
+#mocks/mappings/get-acomodacoes.json,a/9/a99d5f5c23354aebd580bea25533510804f1cca1
+P
+ mocks/mappings/get-clientes.json,1/1/11d8dcc3bdbbb191e9f3312004ef6d978498191e
+d
+4mocks/mappings/get-clientes-com-reservas-ativas.json,9/5/95f10a68e5e04cd0e2105c6a43e26ae5b2158b62
+P
+ mocks/mappings/get-reservas.json,a/5/a5748fc597f14bb4dd4d1569a3e6a1f2daf86cd3
+Q
+!mocks/mappings/post-reservas.json,f/a/fa0ec42fa21a4883585994b2ab0190daa164ac0b
+u
+Esrc/test/java/com/hotel/hotel_server/HotelServerApplicationTests.java,2/5/2561d02b8dd1566ce43d2a4fc427430ddce47d8a
+<
+build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
+p
+@src/main/java/com/hotel/hotel_server/HotelServerApplication.java,2/b/2bbc907922d7609ac965dcf12f8f81c8a833457f
+p
+@src/main/java/com/hotel/hotel_server/service/ClienteService.java,7/2/72e05842d929fc021ca6a92396001770167fd295
+n
+>src/test/java/com/hotel/hotel_server/ClientControllerTest.java,7/9/79561c4b54d3c48f1a40313a751c8174b59df7fc
+v
+Fsrc/main/java/com/hotel/hotel_server/repository/ClienteRepository.java,c/9/c92c6b8126f8689072302266b9489b848761ec18
+g
+7src/main/java/com/hotel/hotel_server/model/Cliente.java,7/8/785bf414d3e3f17c88c1183614817c7d7160186e
+H
+infra/docker-compose.yml,4/1/41833b97c4c60d816ba5e31193df464244f920f5
+J
+docs/examplos/cliente.json,2/f/2fa7167d462cebbd220b6e6bc25b427c7d38b230
+K
+docs/examplos/clientes.json,c/a/ca87c76b2a795eb2da76022639bc35300d5226c0
+B
+docs/design.drawio,2/a/2a2276ad5dc4f4ac1397b1e8a1001dbb42643950
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+v
+Fsrc/main/java/com/hotel/hotel_server/controller/ClienteController.java,8/d/8dcc11ac47ad0876b43e00ecefe88463d80c97ca
+k
+;src/main/java/com/hotel/hotel_server/config/CorsConfig.java,b/3/b3b834f8deada94373fca154672584a26bd959fa
