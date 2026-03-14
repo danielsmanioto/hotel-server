@@ -10,6 +10,8 @@
 
 API REST desenvolvida com Spring Boot para o sistema de gestão de hotel, com persistência em MongoDB e suporte a mocks locais via WireMock para cenários de integração e estudo.
 
+![Imagem do projeto](docs/img.png)
+
 </div>
 
 ## Sumário
@@ -20,6 +22,7 @@ API REST desenvolvida com Spring Boot para o sistema de gestão de hotel, com pe
 - [Funcionalidades atuais](#funcionalidades-atuais)
 - [Endpoints](#endpoints)
 - [Como executar localmente](#como-executar-localmente)
+- [Como executar com Docker (containerizado)](#como-executar-com-docker-containerizado)
 - [Mocks com WireMock](#mocks-com-wiremock)
 - [Modelagem de dados](#modelagem-de-dados)
 - [Testes](#testes)
@@ -70,6 +73,8 @@ Base URL padrão: `http://localhost:8080`
 | `GET` | `/clientes` | Lista todos os clientes cadastrados |
 | `POST` | `/clientes` | Cria um novo cliente |
 
+Documentação completa de rotas: [docs/ROTAS.md](docs/ROTAS.md)
+
 ### Exemplo de requisições
 
 **Listar clientes**
@@ -114,9 +119,31 @@ Na raiz do projeto:
 
 As propriedades principais estão definidas em `src/main/resources/application.properties`:
 
-- `spring.data.mongodb.host=localhost`
-- `spring.data.mongodb.port=27017`
-- `spring.data.mongodb.database=hotel`
+- `spring.data.mongodb.uri=${SPRING_DATA_MONGODB_URI:mongodb://localhost:27017/hotel}`
+
+## Como executar com Docker (containerizado)
+
+Com o `docker-compose.yml` na raiz, é possível subir API + MongoDB juntos.
+
+### 1. Subir os containers
+
+```bash
+docker compose up --build -d
+```
+
+### 2. Acessar API
+
+Base URL: `http://localhost:8080`
+
+```bash
+curl http://localhost:8080/clientes
+```
+
+### 3. Derrubar os containers
+
+```bash
+docker compose down
+```
 
 ## Mocks com WireMock
 
@@ -173,6 +200,16 @@ Para executar os testes automatizados:
 ```bash
 ./gradlew test
 ```
+
+Para validar cobertura mínima de 90% (JaCoCo):
+
+```bash
+./gradlew check
+```
+
+Relatório de cobertura:
+
+- `build/reports/jacoco/test/html/index.html`
 
 O projeto já possui testes cobrindo o controller de clientes e o contexto principal da aplicação.
 
