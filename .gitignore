@@ -1,1 +1,18 @@
+# IDE
 .idea/
+*.iml
+
+# Build / cache
+.gradle/
+build/
+bin/
+out/
+
+# Local containers data
+infra/data/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
